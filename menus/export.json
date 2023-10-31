@@ -1,0 +1,14 @@
+{
+  "menu": [
+    {
+      "id": "tools",
+      "submenu": [
+        {
+          "id": "export-class-diagram-HTML",
+          "label": "Export class diagram to HTML",
+          "command": "export-class-diagram-HTML"
+        }
+      ]
+    }
+  ]
+}
