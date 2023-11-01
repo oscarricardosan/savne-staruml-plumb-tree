@@ -5,7 +5,7 @@
       "submenu": [
         {
           "id": "export-class-diagram-HTML",
-          "label": "Export class diagram to HTML",
+          "label": "Savne plumb tree",
           "command": "export-class-diagram-HTML"
         }
       ]

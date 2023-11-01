@@ -28,7 +28,7 @@ class ExportDiagramClass{
             type.UMLPackage
         )
             .then(function ({buttonId, returnValue}) {
-                if (buttonId === 'ok') {
+                if (buttonId === 'ok' && returnValue.constructor.name !== 'UMLModel') {
                     packageName = returnValue.name;
                     returnValue.idParent = '';
                     path = self.selectDirectorySaveDiagram();
@@ -41,6 +41,9 @@ class ExportDiagramClass{
                         returnValue
                     ]);
                     self.saveDiagramInDirectoryDestination();
+                }
+                if(returnValue.constructor.name === 'UMLModel') {
+                    return window.alert('Only folders that are within the model are allowed to be selected.');
                 }
             });
     }
@@ -137,7 +140,7 @@ class ExportDiagramClass{
             if(err != null){
                 window.alert('Error: ' + err)
             }
-            window.alert('proccess end.')
+            window.alert('Proccess end.')
         })
     }
 }
