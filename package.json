@@ -1,13 +1,19 @@
 {
-  "name": "Export project to html",
-  "title": "EXPORT TO HTML",
-  "description": "Extension intended to export project to html.",
+  "name": "Savne Plumb Tree",
+  "title": "Savne Plumb Tree",
+  "description": "Extension that will allow you to export class diagrams made in StarUML to tree diagrams in HTML.",
+  "homepage": "https://savne.net",
   "version": "1.0.0",
-  "keywords": [
-    "export-project-to_html"
+  "keywords":  [
+    "savne", "plumb tree"
   ],
   "author": {
-    "name": "Rxsas",
-    "email": "santiagoraw20@hotmail.com"
+    "name": "Oscar Sanchez",
+    "email": "oscar.sanchez@savne.net",
+    "url": "https://github.com/oscarricardosan"
+  },
+  "license": "MIT",
+  "engines": {
+    "staruml": ">=5.0.0"
   }
 }
