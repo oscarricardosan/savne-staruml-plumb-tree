@@ -19,7 +19,7 @@ that is, the elements are well distributed within the packages.
 
 <img src="assets/distribution.png">
 
-3. Select the Savne plumb tree option found in the menu of
+3. Select the Savne Plumb Tree option found in the menu of
 StarUML in the tools section.
 
 4. In the pop-up window you must select the package you want to export, 
