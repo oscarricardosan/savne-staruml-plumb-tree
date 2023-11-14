@@ -3,7 +3,7 @@
   "title": "Savne Plumb Tree",
   "description": "Extension that will allow you to export class diagrams made in StarUML to tree diagrams in HTML.",
   "homepage": "https://savne.net",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords":  [
     "savne", "plumb tree"
   ],
